@@ -4,7 +4,7 @@ import com.rabbitmq.client.ConnectionFactory;
 
 public class Procuder {
     public static void main(String[] args) throws Exception {
-        //1 创建一个ConnectionFactory, 并进行配置
+        ///1 创建一个ConnectionFactory, 并进行配置
         ConnectionFactory connectionFactory = new ConnectionFactory();
         connectionFactory.setHost("127.0.0.1");
         connectionFactory.setPort(5672);
